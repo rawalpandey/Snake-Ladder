@@ -81,13 +81,16 @@ window system toolkits. GLUT is simple, easy, and small."
 9.glColor3f(): for coloring objects
 10. glutMainLoop():calling callback functions
 ## Chapter 3 :
-### 3. REQUIREMENTS AND SPECIFICTIONS:
-### 3.1 Hardware Specifications:
- Pentium IV Processor
- 1GB RAM
- Hard Disk: 10GB
-### 3.2 Software Specifications:
- Linux
- Programming Languages: C
- OpenGL Library(open graphics library)
- Compiler g++
+### 3. Software Design
+![image](https://user-images.githubusercontent.com/40235251/140655875-48c9f88a-4431-4f0a-a3f6-0f56dee860f4.png)
+## Chapter 4 :
+### Game Interface
+
+![Screenshot from 2021-11-07 23-23-52](https://user-images.githubusercontent.com/40235251/140656457-83f0e12c-6d15-40b2-805c-dd1c21e4792b.png)
+
+
+![Screenshot from 2021-11-07 23-31-00](https://user-images.githubusercontent.com/40235251/140656419-266d8a28-0bd2-41ba-87f9-1847ca98856b.png)
+
+
+![Screenshot from 2021-11-07 23-28-37](https://user-images.githubusercontent.com/40235251/140656424-807fb6f6-eee0-4cb3-90fb-738093971386.png)
+
