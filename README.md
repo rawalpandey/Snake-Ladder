@@ -46,23 +46,23 @@ its own memory to speed up graphics rendering. OpenGL is the software interface
 to graphics hardware. In other words, OpenGL graphic rendering commands issued
 by your applications could be directed to the graphic hardware and accelerated.
 We use 3 sets of libraries in our OpenGL programs:
-1. Core OpenGL (GL): consists of hundreds of commands, which begin with a
+1. **Core OpenGL (GL)**: consists of hundreds of commands, which begin with a
 prefix "gl" (e.g., glColor, glVertex, glTranslate, glRotate). The Core OpenGL
 models an object via a set of geometric primitives such as point, line and polygon.
-2. OpenGL Utility Library (GLU): built on-top of the core OpenGL to provide
+2. **OpenGL Utility Library (GLU)**: built on-top of the core OpenGL to provide
 important utilities (such as setting camera view and projection) and more building
 models (such as qradric surfaces and polygon tessellation). GLU commands start
 with a prefix "glu" (e.g., gluLookAt, gluPerspective).
-3. OpenGL Utilities Toolkit (GLUT): OpenGL is designed to be independent of
+3. **OpenGL Utilities Toolkit (GLUT)**: OpenGL is designed to be independent of
 the windowing system or operating system. GLUT is needed to interact with the
 Operating System (such as creating a window, handling key and mouse inputs); it
-also provides more building models (such as sphere and torus). GLUT commands
-start with a prefix of "glut" (e.g., glutCreatewindow, glutMouseFunc). GLUT is
+also provides more building models (such as sphere and torus). 
+GLUT commands start with a prefix of "glut" (e.g., glutCreatewindow, glutMouseFunc). GLUT is
 platform independent, which is built on top of platform-specific OpenGL extension
 such as GLX for X Window System, WGL for Microsoft Window, and AGL, CGL
-or Cocoa for Mac OS.
-Large applications requiring sophisticated user interfaces are better off using native
-window system toolkits. GLUT is simple, easy, and small."
+or Cocoa for Mac OS. Large applications requiring sophisticated user interfaces are better off using native
+window system toolkits. GLUT is simple, easy, and small.
+
 ## Chapter 2 :
 ### 2. IDENTIFICATION OF DIFFERENT GARPHICS OBJECT USED
 ### 2.1 Graphics object required of project:
