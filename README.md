@@ -70,6 +70,7 @@ window system toolkits. GLUT is simple, easy, and small."
  Ellipse : Used in designing the head of Snake.
  Rectangle: Used in designing the structure of Board .
 ### 2.2 Primitives and functions used for the project
+```
 1.glLineLoop(): for making the background grid for snake to move.
 2.GLLINES(): for making snake body
 3.GlQuads(): for making grid boxes
@@ -80,6 +81,7 @@ window system toolkits. GLUT is simple, easy, and small."
 8. glClearColor():for coloring buffer
 9.glColor3f(): for coloring objects
 10. glutMainLoop():calling callback functions
+```
 ## Chapter 3 :
 ### 3. Software Design
 ![image](https://user-images.githubusercontent.com/40235251/140655875-48c9f88a-4431-4f0a-a3f6-0f56dee860f4.png)
