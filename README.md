@@ -66,9 +66,9 @@ window system toolkits. GLUT is simple, easy, and small."
 ## Chapter 2 :
 ### 2. IDENTIFICATION OF DIFFERENT GARPHICS OBJECT USED
 ### 2.1 Graphics object required of project:
- Square: Used in designing the base of Game. The platform consists of rows and columns.
- Ellipse : Used in designing the head of Snake.
- Rectangle: Used in designing the structure of Board .
+1. Square: Used in designing the base of Game. The platform consists of rows and columns.
+2. Ellipse : Used in designing the head of Snake.
+3. Rectangle: Used in designing the structure of Board .
 ### 2.2 Primitives and functions used for the project
 ```
 1.glLineLoop(): for making the background grid for snake to move.
