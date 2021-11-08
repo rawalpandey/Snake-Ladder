@@ -46,14 +46,17 @@ its own memory to speed up graphics rendering. OpenGL is the software interface
 to graphics hardware. In other words, OpenGL graphic rendering commands issued
 by your applications could be directed to the graphic hardware and accelerated.
 We use 3 sets of libraries in our OpenGL programs:
-1. **Core OpenGL (GL)**: consists of hundreds of commands, which begin with a
+
+**1. Core OpenGL (GL)**: consists of hundreds of commands, which begin with a
 prefix "gl" (e.g., glColor, glVertex, glTranslate, glRotate). The Core OpenGL
 models an object via a set of geometric primitives such as point, line and polygon.
-2. **OpenGL Utility Library (GLU)**: built on-top of the core OpenGL to provide
+
+**2. OpenGL Utility Library (GLU)**: built on-top of the core OpenGL to provide
 important utilities (such as setting camera view and projection) and more building
 models (such as qradric surfaces and polygon tessellation). GLU commands start
 with a prefix "glu" (e.g., gluLookAt, gluPerspective).
-3. **OpenGL Utilities Toolkit (GLUT)**: OpenGL is designed to be independent of
+
+**3. OpenGL Utilities Toolkit (GLUT)**: OpenGL is designed to be independent of
 the windowing system or operating system. GLUT is needed to interact with the
 Operating System (such as creating a window, handling key and mouse inputs); it
 also provides more building models (such as sphere and torus). 
@@ -66,9 +69,11 @@ window system toolkits. GLUT is simple, easy, and small.
 ## Chapter 2 :
 ### 2. IDENTIFICATION OF DIFFERENT GARPHICS OBJECT USED
 ### 2.1 Graphics object required of project:
+```
 1. Square: Used in designing the base of Game. The platform consists of rows and columns.
 2. Ellipse : Used in designing the head of Snake.
-3. Rectangle: Used in designing the structure of Board .
+3. Rectangle: Used in designing the structure of Board
+```
 ### 2.2 Primitives and functions used for the project
 ```
 1.glLineLoop(): for making the background grid for snake to move.
